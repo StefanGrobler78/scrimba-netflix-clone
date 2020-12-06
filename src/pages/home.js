@@ -1,12 +1,14 @@
 import React from "react"
 import { JumbotronContainer } from "../containers/JumbotronContainer"
+import { FaqsContainer } from "../containers/faqs"
 import { FooterContainer } from "../containers/footer"
 
 export default function Home() {
     return(
         <div>
-        <JumbotronContainer />
-        <FooterContainer />
+            <JumbotronContainer />
+            <FaqsContainer />
+            <FooterContainer />
         </div>    
         
     )
