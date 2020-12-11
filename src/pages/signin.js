@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Footer, Form } from '../components';
+import { Form } from '../components';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer'
 
