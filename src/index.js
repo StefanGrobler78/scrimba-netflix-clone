@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { GlobalStyles } from './global-styles';
 import { App } from './app';
-import {GlobalStyles} from './global-styles'
-import { FirebaseContext } from './context/firebase'
+import { FirebaseContext } from './context/firebase';
+import { seedDatabase } from './seed';
 
 const config = {
     apiKey: "AIzaSyCUQrd5t5uihbIk6fBip8tPvMudjc0IlWs",
@@ -15,13 +16,12 @@ const config = {
 }
 
 const firebase = window.firebase.initializeApp(config);
+seedDatabase();
 
 ReactDOM.render(
-    <div>
-        <FirebaseContext.Provider value={{ firebase: window.firebase }}>
-                <GlobalStyles />
-                <App />
-        </FirebaseContext.Provider>
-    </div>,
-         document.getElementById('root')
-        );
+    <FirebaseContext.Provider value={{ firebase: window.firebase }}>
+        <GlobalStyles />
+        <App />
+    </FirebaseContext.Provider>, 
+    document.getElementById('root')
+);
