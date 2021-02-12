@@ -2244,7 +2244,16 @@ Object.defineProperty(exports, 'Accordion', {
   }
 });
 
-var _jumbotron = __webpack_require__(55);
+var _card = __webpack_require__(55);
+
+Object.defineProperty(exports, 'Card', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_card).default;
+  }
+});
+
+var _jumbotron = __webpack_require__(57);
 
 Object.defineProperty(exports, 'Jumbotron', {
   enumerable: true,
@@ -2253,7 +2262,7 @@ Object.defineProperty(exports, 'Jumbotron', {
   }
 });
 
-var _footer = __webpack_require__(57);
+var _footer = __webpack_require__(59);
 
 Object.defineProperty(exports, 'Footer', {
   enumerable: true,
@@ -2262,7 +2271,7 @@ Object.defineProperty(exports, 'Footer', {
   }
 });
 
-var _optForm = __webpack_require__(59);
+var _optForm = __webpack_require__(61);
 
 Object.defineProperty(exports, 'OptForm', {
   enumerable: true,
@@ -2271,7 +2280,7 @@ Object.defineProperty(exports, 'OptForm', {
   }
 });
 
-var _header = __webpack_require__(61);
+var _header = __webpack_require__(63);
 
 Object.defineProperty(exports, 'Header', {
   enumerable: true,
@@ -2280,7 +2289,7 @@ Object.defineProperty(exports, 'Header', {
   }
 });
 
-var _feature = __webpack_require__(63);
+var _feature = __webpack_require__(65);
 
 Object.defineProperty(exports, 'Feature', {
   enumerable: true,
@@ -2289,7 +2298,7 @@ Object.defineProperty(exports, 'Feature', {
   }
 });
 
-var _form = __webpack_require__(65);
+var _form = __webpack_require__(67);
 
 Object.defineProperty(exports, 'Form', {
   enumerable: true,
@@ -2298,7 +2307,7 @@ Object.defineProperty(exports, 'Form', {
   }
 });
 
-var _profiles = __webpack_require__(67);
+var _profiles = __webpack_require__(69);
 
 Object.defineProperty(exports, 'Profiles', {
   enumerable: true,
@@ -2307,7 +2316,7 @@ Object.defineProperty(exports, 'Profiles', {
   }
 });
 
-var _loading = __webpack_require__(69);
+var _loading = __webpack_require__(71);
 
 Object.defineProperty(exports, 'Loading', {
   enumerable: true,
@@ -2349,7 +2358,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_prop_types__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_tiny_warning__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_tiny_warning__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__babel_runtime_helpers_esm_extends__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__babel_runtime_helpers_esm_objectWithoutPropertiesLoose__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_tiny_invariant__ = __webpack_require__(16);
@@ -2802,6 +2811,22 @@ if (process.env.NODE_ENV === 'production') {
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.FirebaseContext = undefined;
+
+var _react = __webpack_require__(0);
+
+var FirebaseContext = exports.FirebaseContext = (0, _react.createContext)(null);
+
+/***/ }),
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2829,7 +2854,7 @@ function warning(condition, message) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2890,22 +2915,6 @@ var _ref = _jsx(_components.Footer, {}, void 0, _jsx(_components.Footer.Title, {
 function FooterContainer() {
     return _ref;
 }
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.FirebaseContext = undefined;
-
-var _react = __webpack_require__(0);
-
-var FirebaseContext = exports.FirebaseContext = (0, _react.createContext)(null);
 
 /***/ }),
 /* 11 */
@@ -3312,7 +3321,7 @@ module.exports = hoistNonReactStatics;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_tiny_warning__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_tiny_warning__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_mini_create_react_context__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_tiny_invariant__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__babel_runtime_helpers_esm_extends__ = __webpack_require__(15);
@@ -4111,7 +4120,7 @@ if (process.env.NODE_ENV !== "production") {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_helpers_esm_extends__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_resolve_pathname__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_value_equal__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tiny_warning__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tiny_warning__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_tiny_invariant__ = __webpack_require__(16);
 
 
@@ -5077,9 +5086,9 @@ var _globalStyles = __webpack_require__(34);
 
 var _app = __webpack_require__(42);
 
-var _firebase = __webpack_require__(10);
+var _firebase = __webpack_require__(8);
 
-var _seed = __webpack_require__(80);
+var _seed = __webpack_require__(86);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5094,7 +5103,7 @@ var config = {
 };
 
 var firebase = window.firebase.initializeApp(config);
-(0, _seed.seedDatabase)();
+// seedDatabase(firebase);
 
 _reactDom2.default.render(_jsx(_firebase.FirebaseContext.Provider, {
     value: { firebase: window.firebase }
@@ -35557,7 +35566,7 @@ function valueEqual(a, b) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_runtime_helpers_esm_inheritsLoose__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tiny_warning__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tiny_warning__ = __webpack_require__(9);
 
 
 
@@ -36225,7 +36234,7 @@ Object.defineProperty(exports, 'Home', {
   }
 });
 
-var _signin = __webpack_require__(75);
+var _signin = __webpack_require__(77);
 
 Object.defineProperty(exports, 'Signin', {
   enumerable: true,
@@ -36234,7 +36243,7 @@ Object.defineProperty(exports, 'Signin', {
   }
 });
 
-var _signup = __webpack_require__(76);
+var _signup = __webpack_require__(78);
 
 Object.defineProperty(exports, 'Signup', {
   enumerable: true,
@@ -36243,7 +36252,7 @@ Object.defineProperty(exports, 'Signup', {
   }
 });
 
-var _browse = __webpack_require__(77);
+var _browse = __webpack_require__(79);
 
 Object.defineProperty(exports, 'Browse', {
   enumerable: true,
@@ -36275,11 +36284,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _components = __webpack_require__(3);
 
-var _faqs = __webpack_require__(71);
+var _faqs = __webpack_require__(73);
 
-var _JumbotronContainer = __webpack_require__(73);
+var _JumbotronContainer = __webpack_require__(75);
 
-var _footer = __webpack_require__(9);
+var _footer = __webpack_require__(10);
 
 var _header = __webpack_require__(17);
 
@@ -36469,6 +36478,269 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+exports.default = Card;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _card = __webpack_require__(56);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var FeatureContext = (0, _react.createContext)();
+
+function Card(_ref) {
+    var children = _ref.children,
+        restProps = _objectWithoutProperties(_ref, ['children']);
+
+    var _useState = (0, _react.useState)(false),
+        _useState2 = _slicedToArray(_useState, 2),
+        showFeature = _useState2[0],
+        setShowFeature = _useState2[1];
+
+    var _useState3 = (0, _react.useState)(false),
+        _useState4 = _slicedToArray(_useState3, 2),
+        itemFeature = _useState4[0],
+        setItemFeature = _useState4[1];
+
+    return _jsx(FeatureContext.Provider, {
+        value: { showFeature: showFeature, setShowFeature: setShowFeature, itemFeature: itemFeature, setItemFeature: setItemFeature }
+    }, void 0, _react2.default.createElement(
+        _card.Container,
+        restProps,
+        children
+    ));
+}
+
+Card.Group = function CardGroup(_ref2) {
+    var children = _ref2.children,
+        restProps = _objectWithoutProperties(_ref2, ['children']);
+
+    return _react2.default.createElement(
+        _card.Group,
+        restProps,
+        children
+    );
+};
+
+Card.Title = function CardTitle(_ref3) {
+    var children = _ref3.children,
+        restProps = _objectWithoutProperties(_ref3, ['children']);
+
+    return _react2.default.createElement(
+        _card.Title,
+        restProps,
+        children
+    );
+};
+
+Card.SubTitle = function CardSubTitle(_ref4) {
+    var children = _ref4.children,
+        restProps = _objectWithoutProperties(_ref4, ['children']);
+
+    return _react2.default.createElement(
+        _card.SubTitle,
+        restProps,
+        children
+    );
+};
+
+Card.Text = function CardText(_ref5) {
+    var children = _ref5.children,
+        restProps = _objectWithoutProperties(_ref5, ['children']);
+
+    return _react2.default.createElement(
+        _card.Text,
+        restProps,
+        children
+    );
+};
+
+Card.Entities = function CardEntities(_ref6) {
+    var children = _ref6.children,
+        restProps = _objectWithoutProperties(_ref6, ['children']);
+
+    return _react2.default.createElement(
+        _card.Entities,
+        restProps,
+        children
+    );
+};
+
+Card.Meta = function CardMeta(_ref7) {
+    var children = _ref7.children,
+        restProps = _objectWithoutProperties(_ref7, ['children']);
+
+    return _react2.default.createElement(
+        _card.Meta,
+        restProps,
+        children
+    );
+};
+
+Card.Item = function CardItem(_ref8) {
+    var item = _ref8.item,
+        children = _ref8.children,
+        restProps = _objectWithoutProperties(_ref8, ['item', 'children']);
+
+    var _useContext = (0, _react.useContext)(FeatureContext),
+        setShowFeature = _useContext.setShowFeature,
+        setItemFeature = _useContext.setItemFeature;
+
+    return _react2.default.createElement(
+        _card.Item,
+        _extends({
+            onClick: function onClick() {
+                setItemFeature(item);
+                setShowFeature(true);
+            }
+        }, restProps),
+        children
+    );
+};
+
+Card.Image = function CardImage(_ref9) {
+    var restProps = _objectWithoutProperties(_ref9, []);
+
+    return _react2.default.createElement(_card.Image, restProps);
+};
+
+var _ref11 = _jsx('img', {
+    src: '/images/icons/close.png',
+    alt: 'Close'
+});
+
+Card.Feature = function CardFeature(_ref10) {
+    var children = _ref10.children,
+        category = _ref10.category,
+        restProps = _objectWithoutProperties(_ref10, ['children', 'category']);
+
+    var _useContext2 = (0, _react.useContext)(FeatureContext),
+        showFeature = _useContext2.showFeature,
+        itemFeature = _useContext2.itemFeature,
+        setShowFeature = _useContext2.setShowFeature;
+
+    return showFeature ? _jsx(_card.Feature, {
+        src: '/images/' + category + '/' + itemFeature.genre + '/' + itemFeature.slug + '/large.jpg'
+    }, void 0, _jsx(_card.Content, {}, void 0, _jsx(_card.FeatureTitle, {}, void 0, itemFeature.title), _jsx(_card.FeatureText, {}, void 0, itemFeature.description), _jsx(_card.FeatureClose, {
+        onClick: function onClick() {
+            return setShowFeature(false);
+        }
+    }, void 0, _ref11), _jsx(_card.Group, {
+        margin: '30px 0',
+        flexDirection: 'row',
+        alignItems: 'center'
+    }, void 0, _jsx(_card.Maturity, {
+        rating: itemFeature.maturity
+    }, void 0, itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity), _jsx(_card.FeatureText, {
+        fontWeight: 'bold'
+    }, void 0, itemFeature.genre.charAt(0).toUpperCase() + itemFeature.genre.slice(1))), children)) : null;
+};
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Maturity = exports.Content = exports.FeatureClose = exports.FeatureTitle = exports.Feature = exports.FeatureText = exports.Item = exports.Image = exports.Meta = exports.Entities = exports.Text = exports.SubTitle = exports.Group = exports.Container = exports.Title = undefined;
+
+var _templateObject = _taggedTemplateLiteral(['\n    font-size: 24px;\n    color: #e5e5e5;\n    font-weight: bold;\n    margin-left: 56px;\n    margin-right: 56px;\n    margin-top: 0;\n'], ['\n    font-size: 24px;\n    color: #e5e5e5;\n    font-weight: bold;\n    margin-left: 56px;\n    margin-right: 56px;\n    margin-top: 0;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 50px;\n    box-sizing: border-box;\n    \n    > ', ' {\n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    \n    &:last-of-type {\n        margin-bottom: 0;\n    }\n'], ['\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 50px;\n    box-sizing: border-box;\n    \n    > ', ' {\n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    \n    &:last-of-type {\n        margin-bottom: 0;\n    }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    display: flex;\n    flex-direction: ', ';\n    ', ';\n    ', ';\n    \n    > ', ':first-of-type {\n        @media (min-width: 1100px) {\n            margin-top: -150px;\n        }\n    }\n'], ['\n    display: flex;\n    flex-direction: ', ';\n    ', ';\n    ', ';\n    \n    > ', ':first-of-type {\n        @media (min-width: 1100px) {\n            margin-top: -150px;\n        }\n    }\n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n    font-size: 12px;\n    color: white;\n    font-weight: bold;\n    margin-top: 0;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n'], ['\n    font-size: 12px;\n    color: white;\n    font-weight: bold;\n    margin-top: 0;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n']),
+    _templateObject5 = _taggedTemplateLiteral(['\n    margin-top: 5px;\n    font-size: 10px;\n    color: white;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n    line-height: normal;\n'], ['\n    margin-top: 5px;\n    font-size: 10px;\n    color: white;\n    margin-bottom: 0;\n    user-select: none;\n    display: none;\n    line-height: normal;\n']),
+    _templateObject6 = _taggedTemplateLiteral(['\n    display: flex;\n    flex-direction: row;\n'], ['\n    display: flex;\n    flex-direction: row;\n']),
+    _templateObject7 = _taggedTemplateLiteral(['\n    display: none;\n    position: absolute;\n    bottom: 0;\n    padding: 10px;\n    background-color: #0000008f;\n'], ['\n    display: none;\n    position: absolute;\n    bottom: 0;\n    padding: 10px;\n    background-color: #0000008f;\n']),
+    _templateObject8 = _taggedTemplateLiteral(['\n    border: 0;\n    width: 100%;\n    max-width: 305px;\n    cursor: pointer;\n    height: auto;\n    padding: 0;\n    margin: 0;\n'], ['\n    border: 0;\n    width: 100%;\n    max-width: 305px;\n    cursor: pointer;\n    height: auto;\n    padding: 0;\n    margin: 0;\n']),
+    _templateObject9 = _taggedTemplateLiteral(['\n    display: flex;\n    flex-direction: column;\n    margin-right: 5px;\n    position: relative;\n    cursor: pointer;\n    transition: transform 0.2;\n    \n    &:hover {\n        transform: scale(1.3);\n        z-index: 99;\n    }\n    \n    @media (min-width: 1000px) {\n        &:hover ', ', &:hover ', ', &:hover ', ' {\n            display: block;\n            z-index: 100;\n        }\n    }\n    \n    &:first-of-type {\n        margin-left: 56px;\n        \n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    \n    &:last-of-type {\n        margin-right: 56px;\n        \n        @media (max-width: 1000px) {\n            margin-right: 30px;\n        }\n    }\n'], ['\n    display: flex;\n    flex-direction: column;\n    margin-right: 5px;\n    position: relative;\n    cursor: pointer;\n    transition: transform 0.2;\n    \n    &:hover {\n        transform: scale(1.3);\n        z-index: 99;\n    }\n    \n    @media (min-width: 1000px) {\n        &:hover ', ', &:hover ', ', &:hover ', ' {\n            display: block;\n            z-index: 100;\n        }\n    }\n    \n    &:first-of-type {\n        margin-left: 56px;\n        \n        @media (max-width: 1000px) {\n            margin-left: 30px;\n        }\n    }\n    \n    &:last-of-type {\n        margin-right: 56px;\n        \n        @media (max-width: 1000px) {\n            margin-right: 30px;\n        }\n    }\n']),
+    _templateObject10 = _taggedTemplateLiteral(['\n    font-size: 18px;\n    color: white;\n    font-weight: ', ';\n    margin: 0;\n    \n    @media (max-width: 800px) {\n        line-height: 22px;\n    }\n'], ['\n    font-size: 18px;\n    color: white;\n    font-weight: ', ';\n    margin: 0;\n    \n    @media (max-width: 800px) {\n        line-height: 22px;\n    }\n']),
+    _templateObject11 = _taggedTemplateLiteral(['\n    display: flex;\n    flex-direction: row;\n    background: url(', ');\n    background-size: contain;\n    position: relative;\n    height: 360px;\n    background-position-x: right;\n    background-repeat: no-repeat;\n    background-color: black;\n    \n    @media (max-width: 1000px) {\n        height: auto;\n        background-size: auto;\n        \n        ', ' {\n            font-size: 20px;\n            line-height: 20px;\n            margin-bottom: 10px;\n        }\n        ', ' {\n            font-size: 14px;\n        }\n    }\n'], ['\n    display: flex;\n    flex-direction: row;\n    background: url(', ');\n    background-size: contain;\n    position: relative;\n    height: 360px;\n    background-position-x: right;\n    background-repeat: no-repeat;\n    background-color: black;\n    \n    @media (max-width: 1000px) {\n        height: auto;\n        background-size: auto;\n        \n        ', ' {\n            font-size: 20px;\n            line-height: 20px;\n            margin-bottom: 10px;\n        }\n        ', ' {\n            font-size: 14px;\n        }\n    }\n']),
+    _templateObject12 = _taggedTemplateLiteral(['\n    margin-left: 0;\n'], ['\n    margin-left: 0;\n']),
+    _templateObject13 = _taggedTemplateLiteral(['\n    color: white;\n    position: absolute;\n    right: 20px;\n    top: 20px;\n    cursor: pointer;\n    background-color: transparent;\n    border: 0;\n    \n    img {\n        filter: brightness(0) invert(1);\n        width: 24px;\n    }\n'], ['\n    color: white;\n    position: absolute;\n    right: 20px;\n    top: 20px;\n    cursor: pointer;\n    background-color: transparent;\n    border: 0;\n    \n    img {\n        filter: brightness(0) invert(1);\n        width: 24px;\n    }\n']),
+    _templateObject14 = _taggedTemplateLiteral(['\n    margin: 56px;\n    max-width: 500px;\n    line-height: normal;\n    \n    @media (max-width: 1000px) {\n        margin: 30px;\n        max-width: none;\n    }\n'], ['\n    margin: 56px;\n    max-width: 500px;\n    line-height: normal;\n    \n    @media (max-width: 1000px) {\n        margin: 30px;\n        max-width: none;\n    }\n']),
+    _templateObject15 = _taggedTemplateLiteral(['\n    background-color: ', ';\n    border-radius: 15px;\n    width: 20px;\n    padding: 5px;\n    text-align: center;\n    color: white;\n    font-weight: bold;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n    margin-right: 10px;\n    font-size: 12px;\n'], ['\n    background-color: ', ';\n    border-radius: 15px;\n    width: 20px;\n    padding: 5px;\n    text-align: center;\n    color: white;\n    font-weight: bold;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n    margin-right: 10px;\n    font-size: 12px;\n']);
+
+var _styledComponents = __webpack_require__(2);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Title = exports.Title = _styledComponents2.default.p(_templateObject);
+
+var Container = exports.Container = _styledComponents2.default.div(_templateObject2, Title);
+
+var Group = exports.Group = _styledComponents2.default.div(_templateObject3, function (_ref) {
+    var flexDirection = _ref.flexDirection;
+    return flexDirection === 'row' ? 'row' : 'column';
+}, function (_ref2) {
+    var alignItems = _ref2.alignItems;
+    return alignItems && 'align-items: ' + alignItems;
+}, function (_ref3) {
+    var margin = _ref3.margin;
+    return margin && 'margin: ' + margin;
+}, Container);
+
+var SubTitle = exports.SubTitle = _styledComponents2.default.p(_templateObject4);
+
+var Text = exports.Text = _styledComponents2.default.p(_templateObject5);
+
+var Entities = exports.Entities = _styledComponents2.default.div(_templateObject6);
+
+var Meta = exports.Meta = _styledComponents2.default.div(_templateObject7);
+
+var Image = exports.Image = _styledComponents2.default.img(_templateObject8);
+
+var Item = exports.Item = _styledComponents2.default.div(_templateObject9, Meta, Text, SubTitle);
+
+var FeatureText = exports.FeatureText = _styledComponents2.default.p(_templateObject10, function (_ref4) {
+    var fontWeight = _ref4.fontWeight;
+    fontWeight === 'bold' ? 'bold' : 'normal';
+});
+
+var Feature = exports.Feature = _styledComponents2.default.div(_templateObject11, function (_ref5) {
+    var src = _ref5.src;
+    return src;
+}, Title, FeatureText);
+
+var FeatureTitle = exports.FeatureTitle = (0, _styledComponents2.default)(Title)(_templateObject12);
+
+var FeatureClose = exports.FeatureClose = _styledComponents2.default.button(_templateObject13);
+
+var Content = exports.Content = _styledComponents2.default.div(_templateObject14);
+
+var Maturity = exports.Maturity = _styledComponents2.default.div(_templateObject15, function (_ref6) {
+    var rating = _ref6.rating;
+    return rating >= 15 ? 'red' : 'green';
+});
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
 var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
 
 exports.default = Jumbotron;
@@ -36477,7 +36749,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _jumbotron = __webpack_require__(56);
+var _jumbotron = __webpack_require__(58);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36546,7 +36818,7 @@ Jumbotron.Pane = function JumbotronPane(_ref6) {
 };
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36589,7 +36861,7 @@ var SubTitle = exports.SubTitle = _styledComponents2.default.h2(_templateObject6
 var Image = exports.Image = _styledComponents2.default.img(_templateObject7);
 
 /***/ }),
-/* 57 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36604,7 +36876,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _footer = __webpack_require__(58);
+var _footer = __webpack_require__(60);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36681,7 +36953,7 @@ Footer.Break = function FooterBreak(_ref7) {
 };
 
 /***/ }),
-/* 58 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36723,7 +36995,7 @@ var Text = exports.Text = _styledComponents2.default.p(_templateObject6);
 var Break = exports.Break = _styledComponents2.default.div(_templateObject7);
 
 /***/ }),
-/* 59 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36741,7 +37013,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _optForm = __webpack_require__(60);
+var _optForm = __webpack_require__(62);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36800,7 +37072,7 @@ OptForm.Text = function OptFormText(_ref6) {
 };
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36836,7 +37108,7 @@ var Break = exports.Break = _styledComponents2.default.div(_templateObject4);
 var Text = exports.Text = _styledComponents2.default.p(_templateObject5);
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36860,7 +37132,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(4);
 
-var _header = __webpack_require__(62);
+var _header = __webpack_require__(64);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37041,7 +37313,7 @@ Header.Dropdown = function HeaderDRopdown(_ref16) {
 };
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37136,7 +37408,7 @@ var Dropdown = exports.Dropdown = _styledComponents2.default.div(_templateObject
 var Profile = exports.Profile = _styledComponents2.default.div(_templateObject16, Dropdown);
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37151,7 +37423,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _feature = __webpack_require__(64);
+var _feature = __webpack_require__(66);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37191,7 +37463,7 @@ Feature.SubTitle = function FeatureSubTitle(_ref3) {
 };
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37221,7 +37493,7 @@ var Title = exports.Title = _styledComponents2.default.h1(_templateObject2);
 var SubTitle = exports.SubTitle = _styledComponents2.default.h2(_templateObject3);
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37236,7 +37508,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _form = __webpack_require__(66);
+var _form = __webpack_require__(68);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37342,7 +37614,7 @@ Form.Submit = function FormSubmit(_ref9) {
 };
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37392,7 +37664,7 @@ var Input = exports.Input = _styledComponents2.default.input(_templateObject8);
 var Submit = exports.Submit = _styledComponents2.default.button(_templateObject9);
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37410,7 +37682,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _profiles = __webpack_require__(68);
+var _profiles = __webpack_require__(70);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37474,7 +37746,7 @@ Profiles.Name = function ProfilesName(_ref6) {
 };
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37513,7 +37785,7 @@ var Picture = exports.Picture = _styledComponents2.default.img(_templateObject5)
 var Item = exports.Item = _styledComponents2.default.li(_templateObject6, Picture, Name);
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37531,7 +37803,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _loading = __webpack_require__(70);
+var _loading = __webpack_require__(72);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37560,7 +37832,7 @@ Loading.ReleaseBody = function LoadingReleaseBody() {
 };
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37593,7 +37865,7 @@ var Spinner = exports.Spinner = _styledComponents2.default.div(_templateObject3)
 var Picture = exports.Picture = _styledComponents2.default.img(_templateObject4);
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37613,7 +37885,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _components = __webpack_require__(3);
 
-var _faqs = __webpack_require__(72);
+var _faqs = __webpack_require__(74);
 
 var _faqs2 = _interopRequireDefault(_faqs);
 
@@ -37632,13 +37904,13 @@ function FaqsContainer() {
 }
 
 /***/ }),
-/* 72 */
+/* 74 */
 /***/ (function(module, exports) {
 
 module.exports = [{"id":1,"header":"What is Netflix?","body":"Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more – on thousands of internet-connected devices.\n\nYou can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!"},{"id":2,"header":"How much does Netflix cost?","body":"Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one low fixed monthly fee. Plans start from £5.99 a month. No extra costs or contracts."},{"id":3,"header":"Where can I watch?","body":"Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.\n\nYou can also download your favourite programmes with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."},{"id":4,"header":"How do I cancel?","body":"Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account at any time."},{"id":5,"header":"What can I watch on Netflix?","body":"Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals, and more. Watch as much as you want, any time you want."}]
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37656,7 +37928,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _jumbo = __webpack_require__(74);
+var _jumbo = __webpack_require__(76);
 
 var _jumbo2 = _interopRequireDefault(_jumbo);
 
@@ -37676,13 +37948,13 @@ function JumbotronContainer() {
 }
 
 /***/ }),
-/* 74 */
+/* 76 */
 /***/ (function(module, exports) {
 
 module.exports = [{"id":1,"title":"Enjoy on your TV.","subTitle":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.","image":"/images/misc/home-tv.jpg","alt":"Tiger King on Netflix","direction":"row"},{"id":2,"title":"Download your programmes to watch on the go.","subTitle":"Save your data and watch all your favourites offline.","image":"/images/misc/home-mobile.jpg","alt":"Tiger King on Netflix","direction":"row-reverse"},{"id":3,"title":"Watch everywhere.","subTitle":"Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.","image":"/images/misc/home-imac.jpg","alt":"Money Heist on Netflix","direction":"row"}]
 
 /***/ }),
-/* 75 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37704,13 +37976,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(4);
 
-var _firebase = __webpack_require__(10);
+var _firebase = __webpack_require__(8);
 
 var _components = __webpack_require__(3);
 
 var _header = __webpack_require__(17);
 
-var _footer = __webpack_require__(9);
+var _footer = __webpack_require__(10);
 
 var _routes = __webpack_require__(5);
 
@@ -37794,7 +38066,7 @@ function Signin() {
 }
 
 /***/ }),
-/* 76 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37816,9 +38088,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(4);
 
-var _firebase = __webpack_require__(10);
+var _firebase = __webpack_require__(8);
 
-var _footer = __webpack_require__(9);
+var _footer = __webpack_require__(10);
 
 var _header = __webpack_require__(17);
 
@@ -37921,14 +38193,14 @@ function Signup() {
 }
 
 /***/ }),
-/* 77 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === "function" && Symbol.for && Symbol.for("react.element") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();
@@ -37939,18 +38211,32 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _browse = __webpack_require__(78);
+var _browse = __webpack_require__(80);
+
+var _hooks = __webpack_require__(82);
+
+var _utils = __webpack_require__(84);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _jsx(_browse.BrowseContainer, {});
-
 function Browse() {
-  return _ref;
+    var _useContent = (0, _hooks.useContent)('series'),
+        series = _useContent.series;
+
+    var _useContent2 = (0, _hooks.useContent)('films'),
+        films = _useContent2.films;
+
+    var slides = (0, _utils.selectionMap)({ series: series, films: films });
+
+    console.log(slides);
+
+    return _jsx(_browse.BrowseContainer, {
+        slides: slides
+    });
 }
 
 /***/ }),
-/* 78 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37976,23 +38262,27 @@ var _routes = __webpack_require__(5);
 
 var ROUTES = _interopRequireWildcard(_routes);
 
-var _firebase = __webpack_require__(10);
+var _firebase = __webpack_require__(8);
 
-var _profiles = __webpack_require__(79);
+var _profiles = __webpack_require__(81);
 
-var _footer = __webpack_require__(9);
+var _footer = __webpack_require__(10);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _jsx(_components.Loading.ReleaseBody, {});
+var _ref2 = _jsx(_components.Loading.ReleaseBody, {});
 
-var _ref2 = _jsx(_components.Header.Feature, {}, void 0, _jsx(_components.Header.FeatureCallOut, {}, void 0, 'Watch Joker Now'), _jsx(_components.Header.Text, {}, void 0, 'Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he\'s part of the world around him.'), _jsx(_components.Header.PlayButton, {}, void 0, 'Play'));
+var _ref3 = _jsx(_components.Header.Feature, {}, void 0, _jsx(_components.Header.FeatureCallOut, {}, void 0, 'Watch Joker Now'), _jsx(_components.Header.Text, {}, void 0, 'Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he\'s part of the world around him.'), _jsx(_components.Header.PlayButton, {}, void 0, 'Play'));
 
-var _ref3 = _jsx(_footer.FooterContainer, {});
+var _ref5 = _jsx(_footer.FooterContainer, {});
 
-function BrowseContainer() {
+var _ref6 = _jsx('p', {}, void 0, 'I am the feature!');
+
+function BrowseContainer(_ref) {
+    var slides = _ref.slides;
+
     var _useState = (0, _react.useState)('series'),
         _useState2 = _slicedToArray(_useState, 2),
         category = _useState2[0],
@@ -38013,6 +38303,11 @@ function BrowseContainer() {
         searchTerm = _useState8[0],
         setSearchTerm = _useState8[1];
 
+    var _useState9 = (0, _react.useState)([]),
+        _useState10 = _slicedToArray(_useState9, 2),
+        slideRows = _useState10[0],
+        setSlideRows = _useState10[1];
+
     var _useContext = (0, _react.useContext)(_firebase.FirebaseContext),
         firebase = _useContext.firebase;
 
@@ -38027,9 +38322,17 @@ function BrowseContainer() {
         }, 3000);
     }, [user]);
 
+    (0, _react.useEffect)(function () {
+        setSlideRows(slides[category]);
+    }, [slides, category]);
+
+    var _ref4 = _jsx(_components.Card.Feature, {
+        category: category
+    }, void 0, _ref6);
+
     return profile.displayName ? _jsx('div', {}, void 0, loading ? _jsx(_components.Loading, {
         src: user.photoURL
-    }) : _ref, _jsx(_components.Header, {
+    }) : _ref2, _jsx(_components.Header, {
         src: 'joker1',
         dontShowOnSmallViewPort: true
     }, void 0, _jsx(_components.Header.Frame, {}, void 0, _jsx(_components.Header.Group, {}, void 0, _jsx(_components.Header.Logo, {
@@ -38057,14 +38360,22 @@ function BrowseContainer() {
         onClick: function onClick() {
             return firebase.auth().signOut();
         }
-    }, void 0, 'Sign out')))))), _ref2), _ref3) : _jsx(_profiles.SelectProfileContainer, {
+    }, void 0, 'Sign out')))))), _ref3), _jsx(_components.Card.Group, {}, void 0, slideRows.map(function (slideItem) {
+        return _jsx(_components.Card, {}, category + '-' + slideItem.title.toLowerCase(), _jsx(_components.Card.Title, {}, void 0, slideItem.title), _jsx(_components.Card.Entities, {}, void 0, slideItem.data.map(function (item) {
+            return _jsx(_components.Card.Item, {
+                item: item
+            }, item.docId, _jsx(_components.Card.Image, {
+                src: '/images/' + category + '/' + item.genre + '/' + item.slug + '/small.jpg'
+            }), _jsx(_components.Card.Meta, {}, void 0, _jsx(_components.Card.SubTitle, {}, void 0, item.title), _jsx(_components.Card.Text, {}, void 0, item.description)));
+        })), _ref4);
+    })), _ref5) : _jsx(_profiles.SelectProfileContainer, {
         user: user,
         setProfile: setProfile
     });
 }
 
 /***/ }),
-/* 79 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38117,7 +38428,141 @@ function SelectProfileContainer(_ref) {
 }
 
 /***/ }),
-/* 80 */
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _useContent = __webpack_require__(83);
+
+Object.defineProperty(exports, 'useContent', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_useContent).default;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+exports.default = useContent;
+
+var _react = __webpack_require__(0);
+
+var _firebase = __webpack_require__(8);
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function useContent(target) {
+    var _useState = (0, _react.useState)([]),
+        _useState2 = _slicedToArray(_useState, 2),
+        content = _useState2[0],
+        setContent = _useState2[1];
+
+    var _useContext = (0, _react.useContext)(_firebase.FirebaseContext),
+        firebase = _useContext.firebase;
+
+    (0, _react.useEffect)(function () {
+        firebase.firestore().collection(target).get().then(function (snapshot) {
+            var allContent = snapshot.docs.map(function (contentObj) {
+                return _extends({}, contentObj.data(), {
+                    docId: contentObj.id
+                });
+            });
+
+            setContent(allContent);
+        }).catch(function (error) {
+            console.log(error.message);
+        });
+    }, []);
+
+    return _defineProperty({}, target, content);
+}
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _selectionMap = __webpack_require__(85);
+
+Object.defineProperty(exports, 'selectionMap', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_selectionMap).default;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = selectionMap;
+function selectionMap(_ref) {
+  var series = _ref.series,
+      films = _ref.films;
+
+  return {
+    series: [{ title: 'Documentaries', data: series.filter(function (item) {
+        return item.genre === 'documentaries';
+      }) }, { title: 'Comedies', data: series.filter(function (item) {
+        return item.genre === 'comedies';
+      }) }, { title: 'Children', data: series.filter(function (item) {
+        return item.genre === 'children';
+      }) }, { title: 'Crime', data: series.filter(function (item) {
+        return item.genre === 'crime';
+      }) }, { title: 'Feel Good', data: series.filter(function (item) {
+        return item.genre === 'feel-good';
+      }) }],
+    films: [{ title: 'Drama Good', data: films.filter(function (item) {
+        return item.genre === 'drama';
+      }) }, { title: 'Thriller', data: films.filter(function (item) {
+        return item.genre === 'thriller';
+      }) }, { title: 'Children', data: films.filter(function (item) {
+        return item.genre === 'children';
+      }) }, { title: 'Suspense', data: films.filter(function (item) {
+        return item.genre === 'suspense';
+      }) }, { title: 'Romance', data: films.filter(function (item) {
+        return item.genre === 'romance';
+      }) }]
+  };
+}
+
+/***/ }),
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
